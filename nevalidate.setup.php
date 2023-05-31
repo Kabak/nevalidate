@@ -2,11 +2,11 @@
 /* ====================
 [BEGIN_COT_EXT]
 Code=nevalidate
-Name=Name E-mail validation
+Name=Name , E-mail validation
 Category=Stand alone
 Description=Check new user name and Email in DB for presence
-Version=0.0.1
-Date=2014-10-21
+Version=1.0.0
+Date=2014-10-21 - 2023
 Author=Aliaksei Kobak
 Copyright=&copy; Aliaksei Kobak
 Notes=

@@ -8,6 +8,12 @@ and if the email is registered on the site
 * Version
 1.0.0
 
+### Usage
+
+1) rename nevalidate-master to nevalidate
+2) copy nevalidate folder into Cotonti folder ../plugins/
+
+
 ### Contribution guidelines ###
 
 * Alexei Kobak

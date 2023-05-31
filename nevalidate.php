@@ -10,27 +10,22 @@ Hooks=standalone
 /* @var $t Xtemplate */
 
 /**
- * @package envalidate
- * @version 0.0.1
+ * @package nevalidate
+ * @version 1.0.0
  * @author Aliaksei Kobak
- * @copyright Copyright (c) Aliaksei Kobak 2014
+ * @copyright Copyright (c) Aliaksei Kobak 2014 - 2023
  * @license BSD
  */
 
 defined('COT_CODE') or die('Wrong URL');
 
 require_once cot_langfile('nevalidate', 'plug');
-//require_once cot_incfile('nevalidate', 'plug');
 
 header('Content-Type: text/xml');
 
-// сгенерировать заголовок XML
 echo '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';
-// создать элемент <response>
 echo '<response>';
-// получить имя пользователя
-//$n = $_GET['name'];
-//$e = $_GET['email'];
+
 
 $name['user_name'] = cot_import('name','G','TXT');
 $email['user_email'] = cot_import('email','G','TXT');

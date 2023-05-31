@@ -8,7 +8,7 @@ Hooks=rc
 /**
  *  for Cotonti
  *
- * @package envalidate
+ * @package nevalidate
  * @version 1.0.0
  * @author Aliaksei Kobak
  * @copyright Copyright (c) Aliaksei Kobak 2014 - 2023
@@ -21,14 +21,13 @@ if (isset($_GET['e']) && $_GET['e'] == 'users' && isset($_GET['m']) && $_GET['m'
 {
 Resources::linkFileFooter(Cot::$cfg['plugins_dir'] . '/nevalidate/js/GetUserInfo.js', 'js');
   
-Resources::embedFooter(<<<JS
-$().ready( function() 
+Resources::embedFooter('
+    $().ready(function() 
     {
         $("input[name=rusername]").after("<div id=\"divMy_Name\"></div>");
         $("input[name=ruseremail]").after("<div id=\"divEmail\"></div>");
         $("input[name=rusername]").blur(function(){ process_name(); })
         $("input[name=ruseremail]").blur(function(){ process_email(); })
-    }   
-        );
-                    JS);
+    });
+                    ');
 };

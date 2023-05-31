@@ -3,9 +3,9 @@
 /**
  * Russian Language File for Name Email Validate plugin
  * @package nevalidate
- * @version 0.0.1
+ * @version 1.0.0
  * @author Aliaksei Kobak
- * @copyright Copyright (c) Aliaksei Kobak 2014
+ * @copyright Copyright (c) Aliaksei Kobak 2014 - 2023
  * @license BSD
  */
 
